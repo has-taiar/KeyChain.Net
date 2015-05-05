@@ -2,6 +2,14 @@ Reachability.Net.Tests.XamarinAndroid.MainActivity, KeyChain.Net.Tests.XamarinAn
 Reachability.Net.Tests.XamarinAndroid.MainActivity, KeyChain.Net.Tests.XamarinAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md570b1855046e8f6a886eef8a863ea1cf9.MainActivity
 Reachability.Net.Tests.XamarinAndroid.MainActivity;md570b1855046e8f6a886eef8a863ea1cf9.MainActivity
 reachability.net.tests.xamarinandroid.MainActivity;md570b1855046e8f6a886eef8a863ea1cf9.MainActivity
+KeyChain.Net.Tests.XamarinAndroid.TestApplication, KeyChain.Net.Tests.XamarinAndroid;md57389e40e034de899fae0ce4967667278.TestApplication
+KeyChain.Net.Tests.XamarinAndroid.TestApplication, KeyChain.Net.Tests.XamarinAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md57389e40e034de899fae0ce4967667278.TestApplication
+KeyChain.Net.Tests.XamarinAndroid.TestApplication;md57389e40e034de899fae0ce4967667278.TestApplication
+keychain.net.tests.xamarinandroid.TestApplication;md57389e40e034de899fae0ce4967667278.TestApplication
+KeyChain.Net.XamarinAndroid.KeyChainHelper/SecretAccount, KeyChain.Net.XamarinAndroid;md54b11219c301393eb45f7709664403412.KeyChainHelper_SecretAccount
+KeyChain.Net.XamarinAndroid.KeyChainHelper/SecretAccount, KeyChain.Net.XamarinAndroid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md54b11219c301393eb45f7709664403412.KeyChainHelper_SecretAccount
+KeyChain.Net.XamarinAndroid.KeyChainHelper.SecretAccount;md54b11219c301393eb45f7709664403412.KeyChainHelper_SecretAccount
+keychain.net.xamarinandroid.KeyChainHelper_SecretAccount;md54b11219c301393eb45f7709664403412.KeyChainHelper_SecretAccount
 Xamarin.Android.NUnitLite.TestSuiteActivity, Xamarin.Android.NUnitLite;md5e0d9a58f8ef4c80c20dd923cca887f60.TestSuiteActivity
 Xamarin.Android.NUnitLite.TestSuiteActivity, Xamarin.Android.NUnitLite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065;md5e0d9a58f8ef4c80c20dd923cca887f60.TestSuiteActivity
 Xamarin.Android.NUnitLite.TestSuiteActivity;md5e0d9a58f8ef4c80c20dd923cca887f60.TestSuiteActivity

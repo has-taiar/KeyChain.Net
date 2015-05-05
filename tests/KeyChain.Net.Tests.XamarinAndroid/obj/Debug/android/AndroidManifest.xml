@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="KeyChain.Net.Tests.XamarinAndroid">
-  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="21" />
-  <application android:label="KeyChain.Net.Tests.XamarinAndroid" android:name="mono.android.app.Application" android:debuggable="true">
+  <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="21" />
+  <application android:label="KeyChain.Net.Tests.XamarinAndroid" android:debuggable="true" android:name="md57389e40e034de899fae0ce4967667278.TestApplication">
     <activity android:label="Reachability.Net.Tests.XamarinAndroid" android:name="md570b1855046e8f6a886eef8a863ea1cf9.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

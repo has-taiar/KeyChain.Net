@@ -13,3 +13,5 @@
 /Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/obj/Release/uploadflags.txt
 /Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/obj/Release/KeyChain.Net.Tests.XamarinAndroid.dll
 /Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/obj/Release/KeyChain.Net.Tests.XamarinAndroid.dll.mdb
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/bin/Release/KeyChain.Net.dll
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/bin/Release/KeyChain.Net.XamarinAndroid.dll

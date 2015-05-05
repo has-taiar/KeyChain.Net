@@ -1,9 +1,10 @@
-mkdir Reachability.Net
-copy /y ..\src\Reachability.Net\bin\Release\Reachability.Net.dll Reachability.Net
+mkdir KeyChain.Net
+copy /y ..\src\KeyChain.Net\bin\Release\KeyChain.Net.dll KeyChain.Net
 
-mkdir Reachability.Net.XamarinAndroid
-copy /y ..\src\Reachability.Net.XamarinAndroid\bin\Release\Reachability.Net.XamarinAndroid.dll Reachability.Net.XamarinAndroid
+mkdir KeyChain.Net.XamarinAndroid
+copy /y ..\src\KeyChain.Net.XamarinAndroid\bin\Release\KeyChain.Net.XamarinAndroid.dll KeyChain.Net.XamarinAndroid
+copy /y ..\src\KeyChain.Net\bin\Release\KeyChain.Net.dll KeyChain.Net.XamarinAndroid
 
-mkdir Reachability.Net.XamarinIOS
-copy /y ..\src\Reachability.Net.XamarinIOS\bin\Release\Reachability.Net.XamarinIOS.dll Reachability.Net.XamarinIOS
-
+mkdir KeyChain.Net.XamarinIOS
+copy /y ..\src\KeyChain.Net.XamarinIOS\bin\Release\KeyChain.Net.XamarinIOS.dll KeyChain.Net.XamarinIOS
+copy /y ..\src\KeyChain.Net\bin\Release\KeyChain.Net.dll KeyChain.Net.XamarinIOS

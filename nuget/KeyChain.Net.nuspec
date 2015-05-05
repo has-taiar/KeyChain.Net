@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>KeyChain.Net</id>
-        <version>0.0.1</version>
+        <version>0.0.2</version>
         <title>KeyChain.Net</title>
         <authors>Has AlTaiar</authors>
         <owners>Has AlTaiar</owners>
@@ -10,12 +10,11 @@
         <projectUrl>https://github.com/has-taiar/KeyChain.Net</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>
-			This library is to simplify the connectivity status check on Android and iOS by providing a unified simple to use API to detect connectivity on both platforms. 
-            This package is compatible with the following .net platforms: Xamarin.iOS (Unified), Xamarin.Android, and soon (Windows Phone 8.1, PCL(net4+sl4+wp7+win8+monotouch+MonoAndroid)
+			A unified, simple to use library that enables developers storing, accessing, updating and deleting keys and passwords on multiple platforms. Internally, the library uses iOS KeyChain and Android KeyStore features. The library exposes KeyChainHelper which is a simple one-entry to the library on all platforms. KeyChainHelper implements IKeyChainHelper on all platform. Have a look at IKeyChainHelper (on github) to gain a better understanding of what you can do with it. 
 		</description>
-        <summary>This library is to simplify the connectivity status check on Android and iOS by providing a unified simple to use API to detect connectivity on both platforms. </summary>
+        <summary>A simple, easy-to-use, unified API to store, update, access, and/or delete private keys and passwords in the KeyChain. It supports Android and iOS (Xamarin). </summary>
         <releaseNotes>https://github.com/has-taiar/KeyChain.Net/commits</releaseNotes>
-        <tags>KeyChain pcl network connectivity ios android windows xamarin monotouch monodroid windowsphone wp wp8.1</tags>
+        <tags>KeyChain pcl keyStore privateKey password secure security protection ios android windows xamarin monotouch monodroid </tags>
         <dependencies>
         </dependencies>
     </metadata>

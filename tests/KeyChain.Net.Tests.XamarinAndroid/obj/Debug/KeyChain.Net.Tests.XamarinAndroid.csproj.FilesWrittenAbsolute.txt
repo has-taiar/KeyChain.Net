@@ -1,0 +1,15 @@
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/obj/Debug/MonoAndroid,Version=v5.0.AssemblyAttribute.cs
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/bin/Debug/KeyChain.Net.Tests.XamarinAndroid.dll.mdb
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/bin/Debug/KeyChain.Net.Tests.XamarinAndroid.dll
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/bin/Debug/KeyChain.Net.Tests.XamarinAndroid.apk
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/obj/Debug/android/bin/KeyChain.Net.Tests.XamarinAndroid.apk
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/obj/Debug/res/drawable-hdpi/icon.png
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/obj/Debug/res/drawable-mdpi/icon.png
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/obj/Debug/res/drawable-xhdpi/icon.png
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/obj/Debug/res/drawable-xxhdpi/icon.png
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/obj/Debug/res/drawable-xxxhdpi/icon.png
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/obj/Debug/R.cs.flag
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/bin/Debug/KeyChain.Net.Tests.XamarinAndroid-Signed.apk
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/obj/Debug/uploadflags.txt
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/obj/Debug/KeyChain.Net.Tests.XamarinAndroid.dll
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinAndroid/obj/Debug/KeyChain.Net.Tests.XamarinAndroid.dll.mdb

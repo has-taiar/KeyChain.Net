@@ -1,0 +1,6 @@
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinIOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinIOS/obj/iPhoneSimulator/Debug/
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinIOS/bin/iPhoneSimulator/Debug/KeyChain.Net.Tests.XamarinIOS.exe.mdb
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinIOS/bin/iPhoneSimulator/Debug/KeyChain.Net.Tests.XamarinIOS.exe
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinIOS/obj/iPhoneSimulator/Debug/KeyChain.Net.Tests.XamarinIOS.exe
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/tests/KeyChain.Net.Tests.XamarinIOS/obj/iPhoneSimulator/Debug/KeyChain.Net.Tests.XamarinIOS.exe.mdb

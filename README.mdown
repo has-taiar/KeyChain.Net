@@ -1,0 +1,30 @@
+# KeyChain.Net
+
+A unified, simple to use library that enables developers storing, accessing, updating and deleting keys and passwords on multiple platforms. Internally, the library uses iOS KeyChain and Android KeyStore features. 
+The library exposes KeyChainHelper which is a simple one-entry to the library on all platforms. KeyChainHelper implements IKeyChainHelper on all platform. Have a look at IKeyChainHelper (on github) to gain a better understanding of what you can do with it. 
+
+
+## License
+This projected is licensed under the terms of the MIT license.
+See LICENSE.TXT
+
+
+## iOS
+    var helper = new KeyChain.Net.XamarinIOS.KeyChainHelper();
+	var isSaved = helper.SetKey("myKey", "myKeyValue");
+	var keyValue = helper.GetKey("myKey");
+	var isDeleted = helper.DeleteKey("myKey");
+
+## Android
+    var helper = new KeyChain.Net.XamarinAndroid.KeyChainHelper(myActivity, "myKeyProtectionPassword");
+	var isSaved = helper.SetKey("myKey", "myKeyValue");
+	var keyValue = helper.GetKey("myKey");
+	var isDeleted = helper.DeleteKey("myKey");
+
+### Customising the KeyChainHelper 
+When initialising the KeyChainHelper, you could customise it for your app. On iOS for instance, you could change the default behaviour and enable your KeyChain items to be synced with iCloud. You could also change the default keychain accessibility policy to anything other than the default Accessible.Always. 
+On Android, you could change the default file name, where your private keys will be stored, the serviceId, and the default password protection key. 
+
+    // more samples will be added here
+	// var helper = new KeyChain.Net.XamarinAndroid.KeyChainHelper(myActivity, "myKeyProtectionPassword");
+

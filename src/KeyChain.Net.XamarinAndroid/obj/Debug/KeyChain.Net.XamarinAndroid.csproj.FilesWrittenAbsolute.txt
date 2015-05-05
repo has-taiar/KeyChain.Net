@@ -1,0 +1,14 @@
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinAndroid/obj/Debug/MonoAndroid,Version=v5.0.AssemblyAttribute.cs
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinAndroid/obj/Debug/KeyChain.Net.XamarinAndroid.obj.Debug.__AndroidLibraryProjects__.zip
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinAndroid/bin/Debug/KeyChain.Net.XamarinAndroid.dll.mdb
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinAndroid/bin/Debug/KeyChain.Net.XamarinAndroid.dll
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinAndroid/bin/Debug/KeyChain.Net.XamarinAndroid.apk
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinAndroid/obj/Debug/android/bin/KeyChain.Net.XamarinAndroid.apk
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinAndroid/obj/Debug/res/values/strings.xml
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinAndroid/obj/Debug/R.cs.flag
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinAndroid/bin/Debug/KeyChain.Net.XamarinAndroid-Signed.apk
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinAndroid/obj/Debug/uploadflags.txt
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinAndroid/obj/Debug/KeyChain.Net.XamarinAndroid.dll
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinAndroid/obj/Debug/KeyChain.Net.XamarinAndroid.dll.mdb
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinAndroid/bin/Debug/KeyChain.Net.dll
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinAndroid/bin/Debug/KeyChain.Net.dll.mdb

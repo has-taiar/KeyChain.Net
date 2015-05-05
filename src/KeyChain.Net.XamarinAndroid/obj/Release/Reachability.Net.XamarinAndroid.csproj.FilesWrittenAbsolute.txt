@@ -1,0 +1,14 @@
+/Users/hasnainaltaiar/Dropbox/Public/Temp/Reachability/src/Reachability.Net.XamarinAndroid/obj/Release/MonoAndroid,Version=v5.0.AssemblyAttribute.cs
+/Users/hasnainaltaiar/Dropbox/Public/Temp/Reachability/src/Reachability.Net.XamarinAndroid/obj/Release/Reachability.Net.XamarinAndroid.obj.Release.__AndroidLibraryProjects__.zip
+/Users/hasnainaltaiar/Dropbox/Public/Temp/Reachability/src/Reachability.Net.XamarinAndroid/bin/Release/Reachability.Net.XamarinAndroid.dll.mdb
+/Users/hasnainaltaiar/Dropbox/Public/Temp/Reachability/src/Reachability.Net.XamarinAndroid/bin/Release/Reachability.Net.XamarinAndroid.dll
+/Users/hasnainaltaiar/Dropbox/Public/Temp/Reachability/src/Reachability.Net.XamarinAndroid/bin/Release/Reachability.Net.XamarinAndroid.apk
+/Users/hasnainaltaiar/Dropbox/Public/Temp/Reachability/src/Reachability.Net.XamarinAndroid/obj/Release/android/bin/Reachability.Net.XamarinAndroid.apk
+/Users/hasnainaltaiar/Dropbox/Public/Temp/Reachability/src/Reachability.Net.XamarinAndroid/obj/Release/res/values/strings.xml
+/Users/hasnainaltaiar/Dropbox/Public/Temp/Reachability/src/Reachability.Net.XamarinAndroid/obj/Release/R.cs.flag
+/Users/hasnainaltaiar/Dropbox/Public/Temp/Reachability/src/Reachability.Net.XamarinAndroid/bin/Release/Reachability.Net.XamarinAndroid-Signed.apk
+/Users/hasnainaltaiar/Dropbox/Public/Temp/Reachability/src/Reachability.Net.XamarinAndroid/obj/Release/uploadflags.txt
+/Users/hasnainaltaiar/Dropbox/Public/Temp/Reachability/src/Reachability.Net.XamarinAndroid/obj/Release/Reachability.Net.XamarinAndroid.dll
+/Users/hasnainaltaiar/Dropbox/Public/Temp/Reachability/src/Reachability.Net.XamarinAndroid/obj/Release/Reachability.Net.XamarinAndroid.dll.mdb
+/Users/hasnainaltaiar/Dropbox/Public/Temp/Reachability/src/Reachability.Net.XamarinAndroid/bin/Release/Reachability.Net.dll
+/Users/hasnainaltaiar/Dropbox/Public/Temp/Reachability/src/Reachability.Net.XamarinAndroid/bin/Release/Reachability.Net.dll.mdb

@@ -1,0 +1,7 @@
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinIOS/obj/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinIOS/bin/Release/KeyChain.Net.XamarinIOS.dll.mdb
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinIOS/bin/Release/KeyChain.Net.XamarinIOS.dll
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinIOS/obj/Release/KeyChain.Net.XamarinIOS.dll
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinIOS/obj/Release/KeyChain.Net.XamarinIOS.dll.mdb
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinIOS/bin/Release/KeyChain.Net.dll
+/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net.XamarinIOS/bin/Release/KeyChain.Net.dll.mdb

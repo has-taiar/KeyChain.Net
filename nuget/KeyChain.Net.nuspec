@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>KeyChain.Net</id>
-        <version>0.0.2</version>
+        <version>0.0.3</version>
         <title>KeyChain.Net</title>
         <authors>Has AlTaiar</authors>
         <owners>Has AlTaiar</owners>
@@ -12,9 +12,9 @@
         <description>
 			A unified, simple to use library that enables developers storing, accessing, updating and deleting keys and passwords on multiple platforms. Internally, the library uses iOS KeyChain and Android KeyStore features. The library exposes KeyChainHelper which is a simple one-entry to the library on all platforms. KeyChainHelper implements IKeyChainHelper on all platform. Have a look at IKeyChainHelper (on github) to gain a better understanding of what you can do with it. 
 		</description>
-        <summary>A simple, easy-to-use, unified API to store, update, access, and/or delete private keys and passwords in the KeyChain. It supports Android and iOS (Xamarin). </summary>
+        <summary>A simple, easy-to-use, unified API to store, update, access, and/or delete private keys and passwords in the KeyChain. It supports Android, iOS, WinPhone (Xamarin). </summary>
         <releaseNotes>https://github.com/has-taiar/KeyChain.Net/commits</releaseNotes>
-        <tags>KeyChain pcl keyStore privateKey password secure security protection ios android windows xamarin monotouch monodroid </tags>
+        <tags>KeyChain pcl keyStore privateKey password secure security protection ios android windows xamarin monotouch monodroid winrt winphone </tags>
         <dependencies>
         </dependencies>
     </metadata>
@@ -26,8 +26,12 @@
         <!-- Xamarin.Android -->
         <file src="KeyChain.Net\KeyChain.Net.dll" target="lib\MonoAndroid\KeyChain.Net.dll" />
         <file src="KeyChain.Net.XamarinAndroid\KeyChain.Net.XamarinAndroid.dll" target="lib\MonoAndroid\KeyChain.Net.XamarinAndroid.dll" />
+
+        <!-- Xamarin.WinPhone8 -->
+        <file src="KeyChain.Net\KeyChain.Net.dll" target="lib\wp8\KeyChain.Net.dll" />
+        <file src="KeyChain.Net.XamarinWinPhone\KeyChain.Net.XamarinWinPhone.dll" target="lib\wp8\KeyChain.Net.XamarinWinPhone.dll" />
        
         <!-- PCL -->
-        <file src="KeyChain.Net\KeyChain.Net.dll" target="lib\portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1\KeyChain.Net.dll" />
+        <file src="KeyChain.Net\KeyChain.Net.dll" target="lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10\KeyChain.Net.dll" />
     </files>
 </package>

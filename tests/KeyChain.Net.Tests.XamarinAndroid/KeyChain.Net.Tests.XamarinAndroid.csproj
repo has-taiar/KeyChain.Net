@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -43,12 +43,6 @@
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
     <Reference Include="Xamarin.Android.NUnitLite" />
-    <Reference Include="KeyChain.Net">
-      <HintPath>..\..\packages\KeyChain.Net.0.0.2\lib\MonoAndroid\KeyChain.Net.dll</HintPath>
-    </Reference>
-    <Reference Include="KeyChain.Net.XamarinAndroid">
-      <HintPath>..\..\packages\KeyChain.Net.0.0.2\lib\MonoAndroid\KeyChain.Net.XamarinAndroid.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -69,6 +63,16 @@
     <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\KeyChain.Net.XamarinAndroid\KeyChain.Net.XamarinAndroid.csproj">
+      <Project>{5c7efe40-bb10-4ec8-a4fc-6d5944413f9f}</Project>
+      <Name>KeyChain.Net.XamarinAndroid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\src\KeyChain.Net\KeyChain.Net.csproj">
+      <Project>{318a4872-5766-490b-89af-5654d203d65d}</Project>
+      <Name>KeyChain.Net</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>

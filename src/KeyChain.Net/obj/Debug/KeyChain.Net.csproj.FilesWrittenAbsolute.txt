@@ -1,5 +1,0 @@
-/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
-/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net/bin/Debug/KeyChain.Net.dll.mdb
-/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net/bin/Debug/KeyChain.Net.dll
-/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net/obj/Debug/KeyChain.Net.dll
-/Users/hasnainaltaiar/GitHub/Has-AlTaiar/KeyChain.Net/src/KeyChain.Net/obj/Debug/KeyChain.Net.dll.mdb

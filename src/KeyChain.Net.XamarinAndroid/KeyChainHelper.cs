@@ -17,7 +17,6 @@ namespace KeyChain.Net.XamarinAndroid
 {
 	public class KeyChainHelper : IKeyChainHelper
 	{
-		Context context;
 		KeyStore _androidKeyStore;
 		KeyStore.PasswordProtection _passwordProtection;
 		static readonly object _fileLock = new object ();
@@ -25,16 +24,18 @@ namespace KeyChain.Net.XamarinAndroid
 		static string _serviceId = "keyChainServiceId";
 		static string _keyStoreFileProtectionPassword = "lJjxvEPtbm5x1mjDWqga4QQwUkHR5Gw8qfEMHiqL5XW4IC83uhai1zSFKqGtShq7QjfVOS1xkEcIWI3T";
 		static char[] _fileProtectionPasswordArray = null;
+        readonly Func<Context> getContext;
 
-		public KeyChainHelper (Context context) : this(context, _keyStoreFileProtectionPassword)
+		public KeyChainHelper (Func<Context> context) : this(context, _keyStoreFileProtectionPassword)
 		{			
 		}
 
-		public KeyChainHelper (Context context, string keyStoreFileProtectionPassword) : this(context, keyStoreFileProtectionPassword, _fileName, _serviceId)
+        public KeyChainHelper(Func<Context> context, string keyStoreFileProtectionPassword)
+            : this(context, keyStoreFileProtectionPassword, _fileName, _serviceId)
 		{			
 		}
 
-		public KeyChainHelper(Context context, string keyStoreFileProtectionPassword, string fileName, string serviceId)
+        public KeyChainHelper(Func<Context> context, string keyStoreFileProtectionPassword, string fileName, string serviceId)
 		{
 			if (string.IsNullOrEmpty(keyStoreFileProtectionPassword)) throw new ArgumentNullException("Filename cannot be null or empty string");
 			
@@ -47,7 +48,7 @@ namespace KeyChain.Net.XamarinAndroid
 			_serviceId = serviceId;
 			_fileProtectionPasswordArray = _keyStoreFileProtectionPassword.ToCharArray();
 
-			this.context = context;
+            this.getContext = context;
 			_androidKeyStore = KeyStore.GetInstance (KeyStore.DefaultType);
 			_passwordProtection = new KeyStore.PasswordProtection (_fileProtectionPasswordArray);
 
@@ -55,7 +56,7 @@ namespace KeyChain.Net.XamarinAndroid
 			{
 				lock (_fileLock) 
 				{
-					using (var s = context.OpenFileInput (_fileName)) 
+                    using (var s = getContext().OpenFileInput(_fileName)) 
 					{
 						_androidKeyStore.Load (s, _fileProtectionPasswordArray);
 					}
@@ -142,7 +143,7 @@ namespace KeyChain.Net.XamarinAndroid
 		{
 			lock (_fileLock) 
 			{
-				using (var s = context.OpenFileOutput (_fileName, FileCreationMode.Private)) 
+                using (var s = getContext().OpenFileOutput(_fileName, FileCreationMode.Private)) 
 				{
 					_androidKeyStore.Store (s, _fileProtectionPasswordArray);
 				}

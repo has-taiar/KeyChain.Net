@@ -12,7 +12,7 @@ namespace KeyChain.Net.Tests.XamarinAndroid
 		[SetUp]
 		public void Setup ()
 		{
-			_keyChainHelper = new KeyChainHelper(TestApplication.Context, "myKeyProtectionPassword");
+			_keyChainHelper = new KeyChainHelper(() => TestApplication.Context, "myKeyProtectionPassword");
 		}
 
 		[Test]

@@ -8,6 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>KeyChainNetXamarinIOS.Tests</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>KeyChainNetXamarinIOSTests</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>

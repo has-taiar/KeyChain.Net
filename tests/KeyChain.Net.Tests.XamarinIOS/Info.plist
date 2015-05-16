@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>keychain.tests</string>
+	<string>KeyChainNetXamarinIOS.Tests</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -18,6 +18,6 @@
 		<integer>2</integer>
 	</array>
 	<key>CFBundleDisplayName</key>
-	<string>keychainTests</string>
+	<string>Keychain Tests</string>
 </dict>
 </plist>

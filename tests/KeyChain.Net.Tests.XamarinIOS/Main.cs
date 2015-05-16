@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using Foundation;
 using UIKit;
 
-namespace KeyChain.Net.Tests.XamarinIOS
+namespace KeyChainNetXamarinIOS.Tests
 {
 	public class Application
 	{

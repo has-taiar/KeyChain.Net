@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug</OutputPath>
-    <DefineConstants>DEBUG;</DefineConstants>
+    <DefineConstants>DEBUG;__Android</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
@@ -46,10 +46,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
-    <Compile Include="TestsSample.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestApplication.cs" />
+    <Compile Include="KeyChainTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -66,11 +66,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\KeyChain.Net.XamarinAndroid\KeyChain.Net.XamarinAndroid.csproj">
-      <Project>{5c7efe40-bb10-4ec8-a4fc-6d5944413f9f}</Project>
+      <Project>{5C7EFE40-BB10-4EC8-A4FC-6D5944413F9F}</Project>
       <Name>KeyChain.Net.XamarinAndroid</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\src\KeyChain.Net\KeyChain.Net.csproj">
-      <Project>{318a4872-5766-490b-89af-5654d203d65d}</Project>
+      <Project>{318A4872-5766-490B-89AF-5654D203D65D}</Project>
       <Name>KeyChain.Net</Name>
     </ProjectReference>
   </ItemGroup>

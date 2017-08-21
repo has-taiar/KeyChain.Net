@@ -20,11 +20,14 @@ See LICENSE.TXT
 	var isSaved = helper.SetKey("myKey", "myKeyValue");
 	var keyValue = helper.GetKey("myKey");
 	var isDeleted = helper.DeleteKey("myKey");
+	
+## Windows Phone
+    var helper = new KeyChain.Net.XamarinWinRT.KeyChainHelper();
+	var isSaved = helper.SetKey("myKey", "myKeyValue");
+	var keyValue = helper.GetKey("myKey");
+	var isDeleted = helper.DeleteKey("myKey");
+
 
 ### Customising the KeyChainHelper 
 When initialising the KeyChainHelper, you could customise it for your app. On iOS for instance, you could change the default behaviour and enable your KeyChain items to be synced with iCloud. You could also change the default keychain accessibility policy to anything other than the default Accessible.Always. 
 On Android, you could change the default file name, where your private keys will be stored, the serviceId, and the default password protection key. 
-
-    // more samples will be added here
-	// var helper = new KeyChain.Net.XamarinAndroid.KeyChainHelper(myActivity, "myKeyProtectionPassword");
-

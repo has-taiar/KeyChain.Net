@@ -92,8 +92,8 @@ namespace KeyChain.Net.XamarinIOS
 			}
 			
 			// Querying is case sesitive - we don't want that.
-			username = username.ToLower (  );
-			serviceId = serviceId.ToLower (  );
+			username = username.ToLowerInvariant (  );
+			serviceId = serviceId.ToLowerInvariant (  );
 			
 			// Query and remove.
 			SecRecord queryRec = new SecRecord ( SecKind.GenericPassword ) { Service = serviceId, Label = serviceId, Account = username, Synchronizable = synchronizable };
@@ -128,8 +128,8 @@ namespace KeyChain.Net.XamarinIOS
 			}
 			
 			// Querying is case sesitive - we don't want that.
-			username = username.ToLower (  );
-			serviceId = serviceId.ToLower (  );
+			username = username.ToLowerInvariant (  );
+			serviceId = serviceId.ToLowerInvariant (  );
 			
 			// Don't bother updating. Delete existing record and create a new one.
 			DeletePassword ( username, serviceId, synchronizable );
@@ -173,8 +173,8 @@ namespace KeyChain.Net.XamarinIOS
 			}
 			
 			// Querying is case sesitive - we don't want that.
-			username = username.ToLower (  );
-			serviceId = serviceId.ToLower (  );
+			username = username.ToLowerInvariant (  );
+			serviceId = serviceId.ToLowerInvariant (  );
 			
 			SecStatusCode code;
 			// Query the record.

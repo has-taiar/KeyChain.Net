@@ -76,12 +76,12 @@ namespace KeyChain.Net.XamarinAndroid
 		/// <param name="keyName">Keyname/username.</param>
 		public string GetKey (string keyName)
 		{
-			var wantedAlias = MakeAlias(keyName, _serviceId).ToLower();
+			var wantedAlias = MakeAlias(keyName, _serviceId).ToLowerInvariant();
 
 			var aliases = _androidKeyStore.Aliases ();
 			while (aliases.HasMoreElements) {
 				var alias = aliases.NextElement ().ToString ();
-				if (alias.ToLower().Contains(wantedAlias)) 
+				if (alias.ToLowerInvariant().Contains(wantedAlias)) 
 				{
 					var e = _androidKeyStore.GetEntry (alias, _passwordProtection) as KeyStore.SecretKeyEntry;
 					if (e != null) 
